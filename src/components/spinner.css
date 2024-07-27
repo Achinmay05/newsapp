@@ -1,0 +1,17 @@
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full height of the viewport */
+    width: 100vw;
+    /* Full width of the viewport */
+    position: fixed;
+    /* Make sure it stays in the same place */
+    top: 0;
+    /* Align with the top of the viewport */
+    left: 0;
+    /* Align with the left of the viewport */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Optional: adds a slight white background with some transparency */
+}
