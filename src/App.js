@@ -20,7 +20,6 @@ export default class App extends Component {
 
           <Routes>
             <Route  path="/" element={<News key="general" pageSize={this.pageSize} country="in" category="general" />} />
-            <Route  path="/newsapp/" element={<News key="general" pageSize={this.pageSize} country="in" category="general" />} />
             <Route  path="/business" element={<News key="business" pageSize={this.pageSize} country="in" category="business" />} />
             <Route  path="/entertainment" element={<News key="entertainment" pageSize={this.pageSize} country="in" category="entertainment" />} />
             <Route  path="/general" element={<News key="general" pageSize={this.pageSize} country="in" category="general" />} />
